@@ -22,11 +22,11 @@ background-color: black;
    }
 
    .rosa {
-    color: pink; 
-    background-color: blue;
+    color: rgb(115, 8, 136); 
+    background-color: rgb(0, 255, 213);
    }
 
    .verde {
-    color: green; 
-    background-color: yellow;
+    color: hwb(120 33% 31%); 
+    background-color: #0a0a06;
    }
