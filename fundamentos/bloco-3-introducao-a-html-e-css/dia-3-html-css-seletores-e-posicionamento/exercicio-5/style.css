@@ -1,3 +1,9 @@
+
+
+li.rosa:hover {
+    color: pink;
+}
+
 ol {
     background-color: yellow;
 }
@@ -29,3 +35,25 @@ li {
 
 }
 
+
+.negrito li:first-child:hover a {
+    color:coral; 
+    font-weight: bold;
+}
+.negrito li:nth-child(2):hover a {
+    color: green;
+    font-weight: bold;
+}
+.negrito li:nth-child(3):hover a {
+    color:black;
+    font-weight: bold;
+}
+.negrito li:nth-child(4):hover a {
+    color: yellow;
+    font-weight: bold;
+}
+.negrito li:nth-child(5):hover a {
+    color: green;
+    font-weight: bold;
+}
+    
