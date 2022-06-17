@@ -3,9 +3,29 @@ ol {
 }
 
 .par {
-   color: green; 
+   color: green;
+   font-weight: bolder;
 }
 
 .impar {
     text-transform: uppercase;
+    font-weight: bolder;
 }
+
+h1, h3 {
+    color: red;
+}
+
+li {
+    font-size: 20px;
+}
+
+.azul {
+    color: blue;
+}
+
+.rosa {
+    background-color: pink;
+
+}
+
