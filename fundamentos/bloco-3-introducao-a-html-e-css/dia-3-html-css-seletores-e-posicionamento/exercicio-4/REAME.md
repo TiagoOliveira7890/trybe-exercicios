@@ -1,0 +1,1 @@
+Exercício Para fixar II - Agrupamentos de Seletores e Pseudoclasses

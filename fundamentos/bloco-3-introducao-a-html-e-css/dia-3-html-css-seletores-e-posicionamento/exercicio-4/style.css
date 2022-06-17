@@ -1,0 +1,32 @@
+div:hover {
+    border: 1px solid blue;
+
+  }
+
+.amarelo {
+ color: yellow; 
+background-color: black;
+}
+
+.vermelho {
+    color: red;
+    background-color: aquamarine;
+    
+   }
+
+   .marrom {
+    color: brown; 
+    font-size: 28px;
+    background-color: orange;
+  
+   }
+
+   .rosa {
+    color: pink; 
+    background-color: blue;
+   }
+
+   .verde {
+    color: green; 
+    background-color: yellow;
+   }
