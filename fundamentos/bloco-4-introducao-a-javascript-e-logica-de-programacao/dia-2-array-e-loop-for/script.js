@@ -5,5 +5,9 @@ for (let index = 0; index < numbers.length; index+=1) {
     soma += numbers[index]; 
     media = soma / 10;
 }
-console.log("Média é igual: " + media);
+if (media > 20) {
+    console.log('"valor maior que 20"');
+}else{
+    console.log('valor menor que 20');
+}
 
