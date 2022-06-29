@@ -1,0 +1,1 @@
+Exercicio Parte III- Qual seletor usar?
