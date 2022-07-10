@@ -1,0 +1,24 @@
+section {
+border: 1px solid black;
+display: flex;
+justify-content: center;
+margin-top: 30px;
+
+}
+
+header{
+    text-align: center;
+    color: white;
+    background-color: red;
+    padding: 10px;
+   
+}
+
+#botao {
+    display: flex;
+    justify-content: center;
+}
+
+header:hover {
+    background-color: green;
+}
