@@ -1,5 +1,5 @@
 // loginValidation.test.js
-const { sum, myRemove } = require("./sum.js");
+const { sum, myRemove, myFizzBuzz } = require("./sum.js");
 
 //Exercicio 1
 describe("A função sum(a, b) retorna a soma do parâmetro a com o b", () => {
@@ -22,6 +22,7 @@ describe("A função sum(a, b) retorna a soma do parâmetro a com o b", () => {
     }).toThrowError(new Error("parameters must be numbers"));
   });
 });
+
 //Exercicio 2
 
 describe("A função myRemove(arr, item) recebe um array arr e retorna uma cópia desse array sem o elemento item caso ele exista no array", () => {
@@ -36,5 +37,30 @@ describe("A função myRemove(arr, item) recebe um array arr e retorna uma cópi
   test("Verifique se a chamada myRemove([1, 2, 3, 4], 5) retorna o array esperado", () => {
     expect(myRemove([1, 2, 3, 4], 5)).toEqual([1, 2, 3, 4]);
   });
+});
   
+
+//Exercicio 3
+
+describe("Se número for divisível por 3 e 5, retorna fizz", () => {
+  test("Verifique se a chamada myRemove([1, 2, 3, 4], 3) retorna o array esperado", () => {
+    expect(myFizzBuzz(15)).toEqual('fizzbuzz');
+  });
+
+  test("Se o número for divisível por 3, retorna fizz", () => {
+    expect(myFizzBuzz(3)).toEqual('fizz');
+  });
+
+  test("Se o número for divisível por 5, retorna buzz", () => {
+    expect(myFizzBuzz(5)).toEqual('buzz');
+  });
+
+  test("Se o número não for divisível por 3 e 5, retorna false", () => {
+    expect(myFizzBuzz(17)).toBe(17);
+  });
+
+  test("Se o parametro num não for numero", () => {
+    expect(myFizzBuzz("17")).toBe(false);
+
+});
 });
