@@ -4,6 +4,19 @@ function sum(a, b) {
   }
 
   return a + b;
+
 }
+
+function myRemove(arr, item) {
+  let newArr = [];
+  for (let index = 0; index < arr.length; index += 1) {
+    if (item !== arr[index]) {
+      newArr.push(arr[index]);
+    }
+  }
+  return newArr;
+}
+
+// implemente seus testes aqui
   
-  module.exports = sum;
+  module.exports = {sum, myRemove}
